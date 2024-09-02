@@ -1,5 +1,6 @@
 Чтобы развернуть проект заходим в папку lardocker, и вписываем в консоль следующее:
-1. docker-compose up -d
-2. docker exec app php artisan migrate:fresh --seed
+1. composer install
+2. docker-compose up -d
+3. docker exec app php artisan migrate:fresh --seed
 
 Для тестирования импортируйте файл с тестами в Postman
